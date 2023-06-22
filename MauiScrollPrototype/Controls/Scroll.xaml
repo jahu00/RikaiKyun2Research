@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiScrollPrototype.Controls.Scroll">
+    <Frame>
+    <VerticalStackLayout VerticalOptions="Center">
+        <Label 
+            Text="0"
+            HorizontalOptions="Center"
+            x:Name="Output"
+            />
+    </VerticalStackLayout>
+    <Frame.GestureRecognizers>
+        <PanGestureRecognizer PanUpdated="PanGestureRecognizer_PanUpdated"/>
+        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+    </Frame.GestureRecognizers>
+    </Frame>
+</ContentView>
