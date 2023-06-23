@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiScrollPrototype", "MauiScrollPrototype\MauiScrollPrototype.csproj", "{BA3D4154-DA8C-4733-95C8-059095C7C01D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiScrollPrototype", "MauiScrollPrototype\MauiScrollPrototype.csproj", "{BA3D4154-DA8C-4733-95C8-059095C7C01D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiSkiaPrototype", "MauiSkiaPrototype\MauiSkiaPrototype.csproj", "{B8A49CEB-48B4-47D0-8354-B0ED03B0A5A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +19,12 @@ Global
 		{BA3D4154-DA8C-4733-95C8-059095C7C01D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA3D4154-DA8C-4733-95C8-059095C7C01D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BA3D4154-DA8C-4733-95C8-059095C7C01D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B8A49CEB-48B4-47D0-8354-B0ED03B0A5A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8A49CEB-48B4-47D0-8354-B0ED03B0A5A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8A49CEB-48B4-47D0-8354-B0ED03B0A5A5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B8A49CEB-48B4-47D0-8354-B0ED03B0A5A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8A49CEB-48B4-47D0-8354-B0ED03B0A5A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8A49CEB-48B4-47D0-8354-B0ED03B0A5A5}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
