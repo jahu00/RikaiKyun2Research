@@ -15,6 +15,8 @@ namespace MauiSkiaPrototype
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                    fonts.AddFont("Roboto-Light.ttf", "RobotoLight");
+                    fonts.AddFont("Roboto-Bold.ttf", "RobotoBold");
                 })
                 .ConfigureMauiHandlers(h =>
                 {

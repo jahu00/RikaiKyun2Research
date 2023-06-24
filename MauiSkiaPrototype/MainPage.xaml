@@ -10,7 +10,7 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <controls:TextRenderer x:Name="Output"/>
+        <controls:TextRenderer x:Name="Output" Text="無職転生　- 異世界行っても本気出さない -" FontSize="52" FontFamily="RobotoLight" />
     </Grid>
 
 </ContentPage>
