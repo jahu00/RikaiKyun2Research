@@ -13,10 +13,10 @@ namespace MauiSkiaPrototype
                 .UseMauiApp<App>()
                 .ConfigureFonts(fonts =>
                 {
-                    fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-                    fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
-                    fonts.AddFont("Roboto-Light.ttf", "RobotoLight");
-                    fonts.AddFont("Roboto-Bold.ttf", "RobotoBold");
+                    fonts.AddFont("OpenSans-Regular.ttf", "Open Sans Regular");
+                    fonts.AddFont("OpenSans-Semibold.ttf", "Open Sans Semibold");
+                    /*fonts.AddFont("Roboto-Light.ttf", "Roboto Light");
+                    fonts.AddFont("Roboto-Bold.ttf", "Roboto Bold");*/
                 })
                 .ConfigureMauiHandlers(h =>
                 {
